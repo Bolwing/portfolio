@@ -11,14 +11,12 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #333;
+h1 {
     color: #fff;
-    text-align: center;
-    padding: 1em 0;
 }
 
-h1, h2, h3 {
+
+h2, h3 {
     color: #333;
 }
 
@@ -49,6 +47,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+    font-weight: bold; /* Increase font weight */
+}
+
 
 .project {
     margin-bottom: 20px;
@@ -60,6 +68,7 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
 
 /* Responsive Design */
 @media only screen and (max-width: 600px) {
